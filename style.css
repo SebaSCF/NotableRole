@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-modal{
+text-align: center;
+font-size: 24px !important;
+background-color: #E6EFE8 !important ;
+border: 2px solid #ececec !important;
+}
+
+.btn-modal:hover{
+    opacity: 0.5;
+}
+
+.modal{
+    background-color: #E5E5E5 !important ;
+}
+
+.modal-dialog{
+    border-radius: 8px !important;
+    width: 353px !important;
+
+
+}
+
+.modal-content{
+    background-color: #E6EFE8 !important ;
+    color: #173B48;
+    width: 353px;
+
+}
+
+.modal-title{
+    text-align: center !important;
+}
+
+.title h1{
+    font-size: 50px;
+    color: #173B48;
+}
+
+.title p{
+    font-size: 08px;
+    margin-top: -10px;
+    letter-spacing: 2.5px;
+}
+
+.form p{
+    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 400;
+}
+
+.formQuestion{
+    font-weight: 700 !important;
+}
+
+.Yes{
+    flex: 1;
+    margin-left: 80px;
+
+}
+
+.No{
+    flex: 1;
+    margin-right: 80px;
+}
+
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -4px;
+    left: -3px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: solid 2px #173B48;
+
+}
+
+label{
+    font-weight: 0;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -4px;
+    left: -3px;
+    position: relative;
+    background-color: #173B48;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+
+.btnSubmit{
+    background-color: #173B48 !important;
+    font-weight: 500 !important;
+}
+
+.btnTryAgain{
+    background-color: #E6EFE8 !important;
+    font-weight: 500 !important;
+    border: solid 2px #173B48 !important;
+    color: #173B48 !important;
+}
+
+.btnTryAgain:hover{
+    background-color:  #173B48 !important;
+
+    color:#E6EFE8 !important ;
+}
+
+
+.btnComplete{
+    background-color: #173B48 !important;
+    font-weight: 500 !important;
+}
+
+
+#err{
+    color: #FF8888;
+    display: none;
+}
+
+#success{
+    color: #579871;
+    display: none;
+}
+
+#btnErr{
+    display: none;
+}
+
+#message2{
+    display: none;
+}
+
+#message1{
+    display: block;
+}
+
+#formQuestion1{
+    display: block;
+}
+
+#formQuestion2{
+    display: none;
+}
+
+#btnTryAgain{
+    display: none;
+}
+
+#btnSubmit{
+    display: inline;
+}
+
+#YesContainer{
+    display: block
+}
+
+#NoContainer{
+    display: block;
+}
+
+#btnClose{
+    display: none;
+}
+
+#YesContainer{
+    display: block;
+}
+
+#NoContainer{
+    display: block;
+}
